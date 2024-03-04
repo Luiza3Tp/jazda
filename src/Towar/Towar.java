@@ -1,5 +1,5 @@
 package Towar;
 
-public class Towar {
-
+public enum Towar {
+    BANAY,KONSOLE,GRANATY,MEBLE
 }

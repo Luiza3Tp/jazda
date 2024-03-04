@@ -11,6 +11,7 @@ public abstract class Transport {
 
 
     public void przetransportuj(Magazyn z, Magazyn dokad, int iloscKontenerow){
+        System.out.printf("transportuje kontenery z %s do  %s \n", z.getMiejscowosc(), dokad.getMiejscowosc());
 
 
     }

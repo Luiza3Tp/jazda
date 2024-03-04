@@ -1,10 +1,13 @@
 package Towar;
 
-public class Kontener extends Towar {
-    public void zaladuj(){
+public class Kontener  {
 
+
+    private Towar towar;
+    public Kontener(Towar towar) {
+        this.towar = towar;
     }
-    public void rozladuj(){
-
+    public Towar getTowar() {
+        return towar;
     }
 }
